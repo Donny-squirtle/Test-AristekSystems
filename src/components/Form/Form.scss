@@ -1,0 +1,25 @@
+@import '../../styles/vars.scss';
+.task-form {
+  display: flex;
+  &__input {
+    width: 100%;
+    padding: 10px 11px;
+    border: 1px solid $border;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  &__input::placeholder {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  &__button {
+    padding: 10px;
+    background: $primary;
+    border-radius: 4px;
+    border: none;
+    font-size: 14px;
+    line-height: 19px;
+    color: #ffffff;
+  }
+}
