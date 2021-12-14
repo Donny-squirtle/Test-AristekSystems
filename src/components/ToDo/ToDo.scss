@@ -1,0 +1,26 @@
+@import '../../styles/vars.scss';
+.todo {
+  box-shadow: 2px 0px 4px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  width: 100%;
+}
+.todo-list {
+  @media screen and (min-width: $tablet-width) {
+    display: flex;
+    justify-content: space-between;
+    &__item--form {
+      width: 60%;
+    }
+  }
+  &__item-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: $text;
+  }
+}
+.todo-count {
+  color: $primary;
+  font-size: 12px;
+  line-height: 16px;
+}

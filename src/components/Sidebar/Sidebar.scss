@@ -1,0 +1,14 @@
+@import '../../styles/vars.scss';
+.sidebar {
+  width: 52px;
+  background: $primary;
+  box-shadow: 2px 0px 4px rgba(0, 0, 0, 0.1);
+  &__icon {
+    margin-top: 32px;
+    background-image: url('../../img/sidebar-icon.svg');
+    background-color: $second-primary;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 32px;
+  }
+}
