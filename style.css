@@ -1,0 +1,15 @@
+.page-header{padding:15px;display:flex;align-items:center}.page-header__text{margin-left:40px;color:#000;font-weight:bold;font-size:16px;line-height:22px}.header-user{margin-left:auto;display:flex;align-items:center}.header-user__name{font-size:14px;line-height:19px;color:#373737;margin-right:8px}.header-user__icon{width:32px;height:32px;background-image:url(4ebb0976d985d34b5656.png);background-size:cover;margin-right:11px}.header-user__button{width:7px;height:4px;background-image:url(4afd8510482dbcb19011.svg);background-size:cover}
+
+.sidebar{width:52px;background:#550dc9;box-shadow:2px 0px 4px rgba(0,0,0,0.1)}.sidebar__icon{margin-top:32px;background-image:url(2ac7c8730c070dd926f0.svg);background-color:#440ba0;background-repeat:no-repeat;background-position:center;height:32px}
+
+.todo{box-shadow:2px 0px 4px rgba(0,0,0,0.1);padding:25px;width:100%}@media screen and (min-width: 660px){.todo-list{display:flex;justify-content:space-between}.todo-list__item--form{width:60%}}.todo-list__item-title{font-weight:600;font-size:16px;line-height:22px;color:#373737}.todo-count{color:#550dc9;font-size:12px;line-height:16px}
+
+.task-form{display:flex}.task-form__input{width:100%;padding:10px 11px;border:1px solid #ececec;box-sizing:border-box;border-radius:4px;margin-right:10px}.task-form__input::placeholder{font-size:14px;line-height:19px}.task-form__button{padding:10px;background:#550dc9;border-radius:4px;border:none;font-size:14px;line-height:19px;color:#ffffff}
+
+.task{display:flex;padding:16px;align-items:center}.task__status{min-width:16px;min-height:16px;border:1px solid #ececec;box-sizing:border-box;border-radius:4px;margin-right:8px}.task__status--completed{background-color:#550dc9;background-image:url(128d2f9f1eb8330d60c2.svg);background-repeat:no-repeat;background-position:center}.task__text{color:#373737;font-size:14px;line-height:19px}.task__status--completed+.task__text{color:#a3a3a3;text-decoration-line:line-through}.task__buttons{display:flex;margin-left:auto;padding-left:10px}.task-button__edit{margin-right:10px}.button{background-color:inherit;border:initial;padding:0}
+
+
+.page-main{display:flex;min-height:700px}
+
+body{font-family:"OpenSans","Arial",sans-serif;font-style:normal;margin:0;min-width:320px}
+
